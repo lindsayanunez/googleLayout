@@ -1,19 +1,52 @@
+.body{
+  width:auto;
+}
+
 .footer{
   padding-top: 60px;
+  width:100%;
+  background-color: #F0F0F0;
+  height: 100%;
 }
 
 .search{
   width:100%;
-}
-
-img{
-   width: 300px;
-   margin-bottom: 10em;
-}
-
-.search{
   position: relative;
    top: 5em;
   z-index: 1;
+}
 
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 3em;
+    margin-top: 10em;
+}
+
+.search button{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #F0F0F0;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+  color:gray;
+}
+
+.form{
+  display: block;
+  text-align: center;
+}
+
+input{
+  width: 400px;
+  height:30px;
+}
+
+p{
+  text-align: center;
+  margin: 4em;
 }
