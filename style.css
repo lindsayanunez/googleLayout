@@ -37,12 +37,14 @@ img{
     width: 300px;
     margin-bottom: 3em;
     margin-top: 10em;
+    cursor: pointer;
 }
 
 .search button{
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  display: inline;
+/*  margin-right: auto;
+  margin-left: auto;*/
+  margin-top: 25px;
   background-color: #F0F0F0;
   border: none;
   font-weight: bold;
@@ -50,14 +52,23 @@ img{
   color:gray;
 }
 
-/*#left-button{
-  margin-right: 10px;
+.search button:hover{
+  background-color: #F8F8F8;
+  border: solid 1px #E0E0E0;
+}
+
+#left-button{
+  text-align: right;
+
+
 }
 
 #right-button{
-  margin-left:10px;
+  text-align: left;
 
-}*/
+
+
+}
 
 .form{
   display: block;
