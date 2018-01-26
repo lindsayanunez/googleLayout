@@ -17,10 +17,12 @@ nav li{
   width:100%;
   background-color: #F0F0F0;
   height: 40px;
+
 }
 
-.footer a{
-  padding-top: 2em;
+.footer li{
+/*  padding-top: 1em;*/
+/*  padding-bottom: 100em;*/
 }
 
 .search{
@@ -78,9 +80,4 @@ img{
 input{
   width: 400px;
   height:30px;
-}
-
-p{
-  text-align: center;
-  margin: 4em;
 }
