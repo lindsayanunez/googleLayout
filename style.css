@@ -103,7 +103,7 @@ input{
 .search-results{
   position: relative;
   z-index: 1;
-  top: 200px;
+  top: 150px;
 }
 
 .listing{
@@ -115,6 +115,8 @@ input{
   cursor: pointer;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .titleTag:hover{
@@ -129,10 +131,14 @@ input{
 .listingURL{
   color:#006621;
   font-size: 14px;
+  margin-top: 1px;
+margin-bottom: 1px;
 
 }
 
 .metaDescription{
 color:#545454;
 font-size: small;
+margin-top: 1px;
+margin-bottom: 30px;
 }
