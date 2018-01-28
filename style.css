@@ -1,6 +1,7 @@
 .body{
   width:auto;
 }
+/*--------------------Main Nav--------------------*/
 
 .navbar-default{
   background-color: white;
@@ -12,7 +13,27 @@ nav li{
   padding: 1em;
 }
 
+/*--------------------Listing Nav--------------------*/
 
+.searchlistNav{
+background-color: #fafafa;
+z-index: 2;
+
+}
+
+.logo{
+  height: 44px;
+  width: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+  width: 400px;
+}
+
+
+/*--------------------Footer Nav--------------------*/
 .footer{
   width:100%;
   background-color: #F0F0F0;
@@ -25,6 +46,7 @@ nav li{
 /*  padding-bottom: 100em;*/
 }
 
+/*--------------------Main Page--------------------*/
 .search{
   width:100%;
   position: relative;
@@ -61,15 +83,10 @@ img{
 
 #left-button{
   text-align: right;
-
-
 }
 
 #right-button{
   text-align: left;
-
-
-
 }
 
 .form{
@@ -80,4 +97,11 @@ img{
 input{
   width: 400px;
   height:30px;
+}
+
+/*--------------------Listing Page--------------------*/
+.search-results{
+  position: relative;
+  z-index: 1;
+  top: 200px;
 }
