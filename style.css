@@ -18,6 +18,8 @@ nav li{
 .searchlistNav{
 background-color: #fafafa;
 z-index: 2;
+border-bottom: 1px solid #e4e4e4;
+height: 125px;
 
 }
 
@@ -103,12 +105,16 @@ input{
 .search-results{
   position: relative;
   z-index: 1;
-  top: 150px;
+  top: 140px;
   width:725px;
   margin-left: 160px;
 }
 
-.listing{
+.count{
+  color:#808080;
+  font-size: small;
+  margin-top:1px;
+  margin-bottom: 25px;
 
 }
 
