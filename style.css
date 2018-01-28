@@ -34,7 +34,6 @@ input{
   width: 400px;
 }
 
-
 /*--------------------Footer Nav--------------------*/
 .footer{
   width:100%;
@@ -140,7 +139,7 @@ input{
   color:#006621;
   font-size: 14px;
   margin-top: 1px;
-margin-bottom: 1px;
+  margin-bottom: 1px;
 
 }
 
@@ -149,4 +148,10 @@ color:#545454;
 font-size: small;
 margin-top: 1px;
 margin-bottom: 30px;
+}
+
+.listingFooter{
+  z-index: 3;
+  position: relative;
+  top: 200px;
 }
