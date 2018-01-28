@@ -105,3 +105,34 @@ input{
   z-index: 1;
   top: 200px;
 }
+
+.listing{
+
+}
+
+.titleTag{
+  color:#1a0dab;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.titleTag:hover{
+  text-decoration: underline;
+  font-family: arial, sans-serif;
+}
+
+.titleTag:visited{
+  color: #609;
+}
+
+.listingURL{
+  color:#006621;
+  font-size: 14px;
+
+}
+
+.metaDescription{
+color:#545454;
+font-size: small;
+}
