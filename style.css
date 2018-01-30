@@ -34,21 +34,48 @@ input{
   width: 400px;
 }
 
+@media (min-width: 768px) and (max-width: 1036px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
 /*--------------------Footer Nav--------------------*/
+
+
 .footer{
   width:100%;
   background-color: #F0F0F0;
-  height: 40px;
+  height: 75px;
+  border-top: 1px solid #e4e4e4;
+
 
 }
 
-.footer li{
-/*  padding-top: 1em;*/
-/*  padding-bottom: 100em;*/
+/*.footer ul li a{
+  line-height: -100px;*/
 }
 
-.listingFooter{
-  height: 100px;
+.listingFooter p{
+ margin-left: 100px;
+}
+
+.footerLinks{
+  color: #777;
+}
+
+.footerLinks:visited{
+  text-decoration: none;
+  color:inherit;
 }
 
 /*--------------------Main Page--------------------*/
