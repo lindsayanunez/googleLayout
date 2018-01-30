@@ -47,6 +47,10 @@ input{
 /*  padding-bottom: 100em;*/
 }
 
+.listingFooter{
+  height: 100px;
+}
+
 /*--------------------Main Page--------------------*/
 .search{
   width:100%;
